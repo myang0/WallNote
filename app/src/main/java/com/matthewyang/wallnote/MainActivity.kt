@@ -21,7 +21,7 @@ class MainActivity : ComponentActivity() {
             WallNoteTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     Greeting(
-                        name = "N",
+                        name = "quick brown fox",
                         modifier = Modifier.padding(innerPadding)
                     )
                 }
